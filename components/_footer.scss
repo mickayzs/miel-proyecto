@@ -1,0 +1,42 @@
+// Footer
+.footer {
+    background-color: var(footer-bag);
+    padding: var(footer-padding);
+    color: red;
+    text-align: center;
+    }
+  // Grid de info
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(info-gap);
+    padding: var(info-padding);
+    text-align: left;
+    }
+
+  // Ítems individuales
+.info-item {
+    padding: var(item-padding);
+    border-radius: var(item-radius);
+    h4 {
+    color: var(secondary-color);
+    margin-bottom: 15px;
+    } 
+    ul {
+    list-style: none;
+    padding: 0;
+    }
+    li {
+    margin-bottom: 8px;
+    }
+    a {
+    text-decoration: none;
+    color: var(link-color);
+    font-weight: 600;
+    &:hover {
+        color: var(link-hover);
+    }
+    }
+    }
+
+

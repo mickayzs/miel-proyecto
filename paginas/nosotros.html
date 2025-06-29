@@ -1,54 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.nosotros.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Meta Descri -->
+    <meta name="description" content="somos una pequeña tienda de miel que recien empezamos en el mercado trabamos mieles como la jalea real,miel organica y miel con propoleo">
+    <!-- keywords -->
+     <meta name="keywords" content="miel store,tienda miel,informacion sobre tienda de miel,informacion de miel,tienda de mieles,">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <title>Nosotros – Miel Natural</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/estilos.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">🍯Miel Natural</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/index.html" target="_blank">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../paginas/producto.html" target="_blank">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../paginas/nosotros.html" target="_blank">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../paginas/galeria.html" target="_blank">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../paginas/contacto.html" target="_blank">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categorías
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">futuro</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true"></a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">🍯Miel Natural</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="/index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="../paginas/producto.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../paginas/nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="../paginas/galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="../paginas/contacto.html">Contacto</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categorías</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Futuro</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- SECCIÓN SOBRE NOSOTROS -->
+  <section class="sobre-nosotros container py-5">
+    <h2 class="text-center mb-4">¿Quiénes Somos?</h2>
+    <p class="lead text-center">
+      En Miel Natural trabajamos con pasión y respeto por la naturaleza para ofrecer productos de alta calidad: 
+      <strong>miel orgánica pura</strong>, <strong>miel con propóleo</strong> y <strong>jalea real</strong>, todo producido de forma sustentable.
+    </p>
+
+    <!-- Carrusel de Productos -->
+    <div id="carrusel-productos" class="carousel slide my-5 container" data-bs-ride="carousel">
+    <div class="carousel-inner rounded shadow">
+        <div class="carousel-item active">
+                <img src="../img/panel.jpg" class="d-block w-100" alt="Miel Orgánica">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>🍯 Miel Orgánica</h5>
+                <p>100% natural, directa del panal.</p>
         </div>
-    </nav>
+        </div>
+        <div class="carousel-item">
+                <img src="../img/abejas.png" class="d-block w-100" alt="Miel con Propóleo">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>🛡 Miel con Propóleo</h5>
+                <p>Fortalece tus defensas naturalmente.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+                <img src="../img/ebeja.jpg" class="d-block w-100" alt="Jalea Real">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>👑 Jalea Real</h5>
+                <p>Energía pura para tu cuerpo.</p>
+        </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-productos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrusel-productos" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Productos Destacados -->
+    <div class="row text-center mt-5">
+        <div class="col-md-4">
+            <h4>🍯 Miel Orgánica</h4>
+            <p>Extraída directamente del panal, sin aditivos ni procesos artificiales.</p>
+            <img src="../img/polonizar.jpg" alt="Miel Orgánica">
+    </div>
+    <div class="col-md-4">
+            <h4>🛡 Miel con Propóleo</h4>
+            <p>Fortalece tus defensas de manera natural gracias a sus propiedades antimicrobianas.</p>
+            <img src="../img/apicultor.jpg" alt="Miel con Propóleo">
+    </div>
+    <div class="col-md-4">
+        <h4>👑 Jalea Real</h4>
+        <p>Una fuente poderosa de energía y vitalidad, ideal para revitalizar tu día a día.</p>
+        <img src="../img/panel.jpg" alt="Jalea Real">
+    </div>
+    </div>
+        </section> 
+    <!-- FOOTER -->
+  <footer class="info-grid">
+    <div class="info-item">
+      <h4>INFORMACIÓN</h4>
+      <ul>
+        <li><a href="#">Historia</a></li>
+      </ul>
+    </div>
+    <div class="info-item">
+      <h4>COMUNIDAD</h4>
+      <ul>
+        <li><a href="#">Testimonios</a></li>
+      </ul>
+    </div>
+    <div class="info-item">
+      <h4>CONTACTO</h4>
+      <ul>
+        <li><a href="#">Soporte</a></li>
+        <li><a href="#">Preguntas Frecuentes</a></li>
+        <li><a href="#">Política de Privacidad</a></li>
+        <li><a href="#">Redes Sociales</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer-txt text-center py-3">
+    <p>&copy; 2025 Miel Natural - Todos los derechos reservados.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

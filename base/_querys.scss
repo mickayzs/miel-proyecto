@@ -1,0 +1,27 @@
+$mobile: 486px;
+$tablet: 650px;
+$desktop: 768px;
+// mixin //
+@mixin responsive($size) {
+    @media screen and (max-width: $size) {
+    @content;
+    }
+}
+.info-grid {
+    @include responsive($desktop) {
+        grid-template-columns: 1fr;
+    }
+}
+.hero {
+    @include responsive($tablet) {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+.header {
+    @include responsive($mobile) {
+    flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,55 @@
+body {
+    background-image: url("../img/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; // si querés efecto parallax
+    background-color: #fffaf0;
+    color: #5a3e0b;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    }
+// Header principal
+.header {                                                  
+    padding: 0px 0px;
+    }
+  // Barra de navegación
+.navbar {
+    background-color: #fff;
+    padding: 10px;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:   var(nav-brand);
+}
+    .navbar-nav {
+        .nav-link {
+            color:  var(nav-brand);
+        &hover {
+            color: var(primary-color);
+        }
+            }
+        }
+    .navbar-toggler {
+        border: none;
+    }
+.carousel {
+    .carousel-item  {
+    height: 450px;
+    }
+    img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+    .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 5px;
+    }
+    }
+
+
+
